@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS pucsdStudent;
+CREATE DATABASE IF NOT EXISTS pucsdstudents;
 
 CREATE USER IF NOT EXISTS 'pucsd'@'localhost' IDENTIFIED BY 'pucsd';
 
-GRANT ALL PRIVILEGES ON pucsdStudent. * TO 'pucsd'@'localhost';
+GRANT ALL PRIVILEGES ON pucsdstudents. * TO 'pucsd'@'localhost';
 
 DROP TABLE IF EXISTS studentData;
 
